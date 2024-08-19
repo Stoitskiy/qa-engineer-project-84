@@ -29,102 +29,102 @@
     
 - summary: |
     Проверка фильтра In stock
-requirement: |
+  requirement: |
     Отображаются все товары каталога
-prerequisites:
+  prerequisites:
     No data
-test-data: |
+  test-data: |
     No data
-steps:
+  steps:
     - нажать на чекбокс "In stock"
-expected-result: |
+  expected-result: |
     Пользователь видит все товары (как в наличии, так и не в наличии).
 
 - summary: |
     Проверка фильтра товаров по производителю 
-requirement: |
+  requirement: |
     При выборе любого производителя, товар должен соответственно фильтроваться 
-prerequisites:
+  prerequisites:
     No data
-test-data: |
+  test-data: |
     No data
-steps:
+  steps:
     - Выбрать любого производителя в списке на главной странице
-expected-result: |
+  expected-result: |
     Пользователь видит товары, относящиеся к выбранному производителю.
 
 - summary: |
     Проверка открытия карточки товара
-requirement: |
+  requirement: |
     При выборе любого товара, открывается его карточка с подробной информацией
-prerequisites:
+  prerequisites:
     No data
-test-data: |
+  test-data: |
     No data
-steps:
+  steps:
     - Выбрать любой товар из каталога
     - Нажать на выбранный товар
-expected-result: |
+  expected-result: |
     Открылась карточка товара с подробной информацией.
 
 - summary: |
     Проверка добавления товара в корзину из каталога
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность поместить любой товар в корзину
-prerequisites:
+  prerequisites:
     No data
-test-data: |
+  test-data: |
     No data
-steps:
+  steps:
     - Выбрать любой товар из каталога
     - Нажать на кнопку "Add to cart"
-expected-result: |
+  expected-result: |
     Товар добавлен в корзину
 
 - summary: |
     Проверка добавления товара в корзину из карточки товара
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность поместить любой товар в корзину
-prerequisites:
+  prerequisites:
     No data
-test-data: |
+  test-data: |
     No data
-steps:
+  steps:
     - Выбрать любой товар из каталога
     - Нажать на выбранный товар
     - Нажать кнопку "Add to cart"
-expected-result: |
+  expected-result: |
     Товар добавлен в корзину
 
 - summary: |
     Проверка открытия корзины
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность просматривать корзину
-prerequisites:
+  prerequisites:
     No data
-test-data: |
+  test-data: |
     No data
-steps:
+  steps:
     - Выбрать любой товар из каталога
     - Нажать на кнопку "Add to cart"
     - Нажать на кнопку "Cart"
-expected-result: |
+  expected-result: |
     Открылась корзина, в которой находится добавленный товар
 
 - summary: |
     Проверка оформления заказа
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность заказать товар
-prerequisites:
+  prerequisites:
     No data
-test-data: |
+  test-data: |
     No data
-steps:
+  steps:
     - Выбрать любой товар из каталога
     - Нажать на кнопку "Add to cart"
     - Перейти в корзину, нажав кнопку "Cart"
     - Нажать кнопку "Checkout"
-expected-result: |
+  expected-result: |
     Заказ оформлен
 
     
