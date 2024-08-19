@@ -1,22 +1,22 @@
 ---
 - summary: |
-Проверка поиска товара по ключевому слову
+    Проверка поиска товара по ключевому слову
   requirement: |
-При вводе названия товара в поле Search, должен осуществляться поиск этого товара
-prerequisites: |
+    При вводе названия товара в поле Search, должен осуществляться поиск этого товара
+  prerequisites: |
     No data
-test-data: |
+  test-data: |
     No data
-steps:
+  steps:
     - Вводим любое название товара в поле поиска, например- Eyeshadow 
-expected-result: |
+  expected-result: |
     Отображаются все соответствующие товары по ключевому слову.
-
+    
 - summary: |
-Проверка поиска товара по категории 
-requirement: |
+    Проверка поиска товара по категории 
+  requirement: |
     При выборе любой категории, товар должен соответственно сортироваться 
-prerequisites:
+  prerequisites:
     No data
   test-data: |
     No data
@@ -28,103 +28,103 @@ prerequisites:
 
     
 - summary: |
-Проверка фильтра In stock
+    Проверка фильтра In stock
 requirement: |
     Отображаются все товары каталога
 prerequisites:
     No data
-  test-data: |
+test-data: |
     No data
-  steps:
+steps:
     - нажать на чекбокс "In stock"
-  expected-result: |
+expected-result: |
     Пользователь видит все товары (как в наличии, так и не в наличии).
 
 - summary: |
-Проверка фильтра товаров по производителю 
+    Проверка фильтра товаров по производителю 
 requirement: |
     При выборе любого производителя, товар должен соответственно фильтроваться 
 prerequisites:
     No data
-  test-data: |
+test-data: |
     No data
-  steps:
+steps:
     - Выбрать любого производителя в списке на главной странице
-  expected-result: |
+expected-result: |
     Пользователь видит товары, относящиеся к выбранному производителю.
 
 - summary: |
-Проверка открытия карточки товара
+    Проверка открытия карточки товара
 requirement: |
     При выборе любого товара, открывается его карточка с подробной информацией
 prerequisites:
     No data
-  test-data: |
+test-data: |
     No data
-  steps:
+steps:
     - Выбрать любой товар из каталога
     - Нажать на выбранный товар
-  expected-result: |
+expected-result: |
     Открылась карточка товара с подробной информацией.
 
 - summary: |
-Проверка добавления товара в корзину из каталога
+    Проверка добавления товара в корзину из каталога
 requirement: |
     Пользователь должен иметь возможность поместить любой товар в корзину
 prerequisites:
     No data
-  test-data: |
+test-data: |
     No data
-  steps:
+steps:
     - Выбрать любой товар из каталога
     - Нажать на кнопку "Add to cart"
-  expected-result: |
+expected-result: |
     Товар добавлен в корзину
 
-  - summary: |
-Проверка добавления товара в корзину из карточки товара
+- summary: |
+    Проверка добавления товара в корзину из карточки товара
 requirement: |
     Пользователь должен иметь возможность поместить любой товар в корзину
 prerequisites:
     No data
-  test-data: |
+test-data: |
     No data
-  steps:
+steps:
     - Выбрать любой товар из каталога
     - Нажать на выбранный товар
     - Нажать кнопку "Add to cart"
-  expected-result: |
+expected-result: |
     Товар добавлен в корзину
 
-  - summary: |
-Проверка открытия корзины
+- summary: |
+    Проверка открытия корзины
 requirement: |
     Пользователь должен иметь возможность просматривать корзину
 prerequisites:
     No data
-  test-data: |
+test-data: |
     No data
-  steps:
+steps:
     - Выбрать любой товар из каталога
     - Нажать на кнопку "Add to cart"
     - Нажать на кнопку "Cart"
-  expected-result: |
+expected-result: |
     Открылась корзина, в которой находится добавленный товар
 
-  - summary: |
-Проверка оформления заказа
+- summary: |
+    Проверка оформления заказа
 requirement: |
     Пользователь должен иметь возможность заказать товар
 prerequisites:
     No data
-  test-data: |
+test-data: |
     No data
-  steps:
+steps:
     - Выбрать любой товар из каталога
     - Нажать на кнопку "Add to cart"
     - Перейти в корзину, нажав кнопку "Cart"
     - Нажать кнопку "Checkout"
-  expected-result: |
+expected-result: |
     Заказ оформлен
 
     
