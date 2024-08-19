@@ -1,109 +1,109 @@
 ---
 - summary: |
     Не закрывается окно оформления заказа на крестик
-environment: |
+  environment: |
     Chrome версия 122.0.6261.112 (Официальная сборка), (64 бит)
     ОС Windows 10 Домашняя 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1) Добавить любой товар в корзину
     2) Зайти в корзину
     3) Нажать кнопку Checkout
     4) В окне оформленного заказа нажать крестик
-expected-result: |
+  expected-result: |
     Окно оформления заказа закрылось
-actual-result: |
+  actual-result: |
     Окно оформления заказа не закрывается
 
 
 - summary: |
     Не отображаются товары при выключении фильтра In stock
-environment: |
+  environment: |
     Chrome версия 122.0.6261.112 (Официальная сборка), (64 бит)
     ОС Windows 10 Домашняя 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1) Нажать на чек-бокс In stock
-expected-result: |
+  expected-result: |
     Показываются все товары (в наличии и не в наличии)
-actual-result: |
+  actual-result: |
     Товары не отображаются 
 
     
 - summary: |
     Нет изображения флага рядом с выбором английского языка
-environment: |
+  environment: |
     Chrome версия 122.0.6261.112 (Официальная сборка), (64 бит)
     ОС Windows 10 Домашняя 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1) Нажать Language
-expected-result: |
+  expected-result: |
     Рядом с выбором английского языка должен быть флаг страны
-actual-result: |
+  actual-result: |
     Картинки нет
 
 
 - summary: |
     Нет возможности сбросить категорию
-environment: |
+  environment: |
     Chrome версия 122.0.6261.112 (Официальная сборка), (64 бит)
     ОС Windows 10 Домашняя 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1) Выбрать любую категорию из списка
     2) Сбросить выбранную категорию
-expected-result: |
+  expected-result: |
     Есть возможность сбросить выбранную категорию и просматривать весь каталог целиком
-actual-result: |
+  actual-result: |
     Нельзя сбросить категорию
 
     
 - summary: |
     В списке брендов есть чек- бокс без названия
-environment: |
+  environment: |
     Chrome версия 122.0.6261.112 (Официальная сборка), (64 бит)
     ОС Windows 10 Домашняя 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1) Нажать на пустой чек- бокс при выборе бренда
-expected-result: |
+  expected-result: |
    Такого чек- бокса быть не должно
-actual-result: |
+  actual-result: |
     Пустой чек- бокс 
 
     
 - summary: |
     Надпись в шапке Hexlet Store не является ссылкой и не ведет на главную страницу сайта
-environment: |
+  environment: |
     Chrome версия 122.0.6261.112 (Официальная сборка), (64 бит)
     ОС Windows 10 Домашняя 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1) Открыть карточку любого товара
     2) Нажать на надпись Hexlet Store в шапке сайта
-expected-result: |
+  expected-result: |
     Переход на главную старнцу сайта 
-actual-result: |
+  actual-result: |
     Надпись неактивна 
 
 - summary: |
     Нет мобильной версии сайта
-environment: |
+  environment: |
     Chrome версия 122.0.6261.112 (Официальная сборка), (64 бит)
     ОС Windows 10 Домашняя 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1) Открыть DevTools
     2) Выбрать меню адаптивности
     3) Выбрать любой мобильный девайс, например- Iphone 14
-expected-result: |
+  expected-result: |
     Есть мобильная версия сайта
-actual-result: |
+  actual-result: |
     Нет мобильной версии сайта
 
 
 - summary: |
     Дублируются кнопки смены страницы, если в каталоге не найдено ни одного товара
-environment: |
+  environment: |
     Chrome версия 122.0.6261.112 (Официальная сборка), (64 бит)
     ОС Windows 10 Домашняя 22H2
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1) В поле Search ввести название несуществующего товара, например- 12345
-expected-result: |
+  expected-result: |
     Всего две кнопки смены страницы (предыдущая и следующая)
-actual-result: |
+  actual-result: |
     На странице отображаются 4 кнопки смены страницы (две Предыдущая и две Следующая)
